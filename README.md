@@ -1,5 +1,11 @@
 # HELLO
 
+## DEMO
+데모프로젝트는 해당 링크에서 확인 가능합니다   
+> https://ssammwudemo.herokuapp.com/   
+- id: t
+- pw: t
+
 ## 채팅 관련 기능
 
 ### 1. 채팅 전송
