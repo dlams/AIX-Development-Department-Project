@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/channel/css/login.css">
+
+</head>
+<body>
+    <div class="partition"></div>
+    <div class="partition" id="login-main">
+        <div id="main-box">
+            <h1>Login</h1>
+            <form action="/login" method="post">
+                <input class="data-input" type="text" name="id" id="id" placeholder="Email">
+                <br>
+                <input class="data-input" type="password" name="pw" id="pw" placeholder="Password">
+                <div>
+                    <input type="checkbox"> Remember me
+                </div>
+                
+                <button id="login-btn" type="submit">Login</button>
+            </form>
+
+        </div>
+    </div>
+    <div class="partition"></div>
+
+    <!-- <script src="/socket.io/socket.io.js"></script> -->
+    <!-- <script src="js/login.js"></script> -->
+
+</body>
+</html>

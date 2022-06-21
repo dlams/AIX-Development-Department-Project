@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNS</title>
+
+    <link rel="stylesheet" href="css/chat_style.css">
+    <link rel="stylesheet" href="css/drop_down.css">
+
+    dummydata
+</head>
+<body>
+    <div id="dropdown-menu-onRoom">
+        <div class="drop-item">
+            <i class="fa fa-new">새 채널 만들기</i>
+        </div>
+        <div class="drop-item">
+            <i class="fa fa-rename">채널 이름 바꾸기</i>
+        </div>
+        <div class="drop-item">
+            <i class="fa fa-delete">채널 삭제하기</i>
+        </div>
+    </div>
+    <div id="dropdown-menu-onVoid">
+        <div class="drop-item">
+            <i class="fa fa-new">새 채널 만들기</i>
+        </div>
+    </div>
+    <div id="dropdown-menu-onMsg">
+        <div class="drop-item">
+            <i class="fa fa-rename">메시지 수정</i>
+        </div>
+        <div class="drop-item">
+            <i class="fa fa-delete">메시지 삭제</i>
+        </div>
+    </div>
+
+    <div id="dropdown-to-input">
+        <H1>채널 만들기</H1>
+        <p>채널 이름</p>
+        <input type="text" class="dropdown-input">
+    </div>
+
+
+    <div class="room-menu">
+        <div class="room-list">
+            <ul class="room-group">
+                
+                여기에는 채널 목록 추가
+
+            </ul>
+        </div>
+        <div class="main-profile"></div>
+    </div>
+
+    <div class="wrapper">
+        <div class="user-container">
+            <label for="user-current-room">신나는 노래방</label>
+        </div>
+        <div class="display-container">
+            <ul class="chatting-list">
+
+                여기에는 이전 메세지 추가
+                
+            </ul>
+        </div>
+        <div class="input-container">
+            <span>
+                <input type="text" class="chatting-input" placeholder="할 말을 입력해 주세요">
+            </span>
+        </div>
+
+    </div>
+
+    <div class="player-menu"></div>
+    
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/socket.js"></script>
+    <script src="js/move.js"></script>
+
+    <!--<script src="js/chat.js"></script>
+    <script src="js/move.js"></script>
+    <script src="js/other.js"></script>--!>
+</body>
+</html>
